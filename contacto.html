@@ -3,32 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contacto</title>
 </head>
 <body>
-    <section>
-        <form action="/my-handling-form-page" method="post">
+    <header>
+        <h1>Oriana Aldana</h1>
+        <nav>Menú
             <ul>
-                <li>
-                  <label for="name">Name:</label>
-                  <input type="text" id="name" name="user_name" />
-                </li>
-                <li>
-                  <label for="mail">Email:</label>
-                  <input type="email" id="mail" name="user_email" />
-                </li>
-                <li>
-                  <label for="msg">Message:</label>
-                  <textarea id="msg" name="user_message"></textarea>
-                </li>
-                <li>
-                    <textarea id="msg" name="user_message"></textarea>
-                </li>
-                <li class="button">
-                    <button type="submit">Send your message</button>
-                  </li>
+                <li> <a href="portafolio.html">Sobre mí</a> </li>
+                <li> <a href="Estudios.html">Estudios</a> </li>
+                <li> <a href="Proyectos.html">Proyectos</a> </li>
+                <li> <a href="contacto.html">Contacto</a></li>
             </ul>
-        </form>
-    </section>
+        </nav>
+    </header>
+    <h2>Ponte en Contacto</h2>
+    <img src="src/img/contacto.jpg">
+    <form action="/my-handling-form-page" method="post">
+        <ul>
+            <li>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="user_name" />
+            </li>
+            <li>
+              <label for="mail">Email:</label>
+              <input type="email" id="mail" name="user_email" />
+            </li>
+            <li>
+              <label for="msg">Message:</label>
+              <textarea id="msg" name="user_message"></textarea>
+            </li>
+            <li class="button">
+                <button type="submit">Send your message</button>
+              </li>
+        </ul>
+    </form>
 </body>
 </html>
