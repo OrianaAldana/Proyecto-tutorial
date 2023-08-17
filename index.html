@@ -6,13 +6,12 @@
     <title>Mi Gatito</title>
     <link rel="stylesheet" href="src/css/style.css">
 </head>
-<body style="background-color:#F4EFE8 ;">
+<body style="background-color:#F0E6C0 ;">
     <header>
-        <h1 class="color-negro">Como Tratar a mi Gato</h1>
-    <nav>Menu      
+        <h1 class="titulo">Como Tratar a mi Gato </h1>
+    <nav class="menu">      
          <ul>
-            <li> <a href="index.html">Inicio</a> </li>
-            <li> <a href="comida.html">Comida</a></li>
+            <li> <a href="index.html">Inicio</a> </li> <li> <a href="comida.html">Comida</a></li>
             <li> <a href="Afecto.html">Afecto</a> </li>
             <li> <a href="juegos.html">Juegos</a> </li>
             <li> <a href="baños.html">Baños</a> </li>
@@ -20,16 +19,16 @@
     </nav>
     </header>
     <section>
-        <article>
+        <article class="arti">
             <h2>Los Gatos</h2>
             <p>Los gatos son animales muy poco comprensibles, muchos de ellos toman actitudes que el humano no puede comprender pero aun asi se les da amor y cariño.
                 Estos animalitos nos han demostrado como no es necesario hablar para demostrar cariño y preocupacion, por lo cual en esta pagina encontraras tips para poder tratar de la mejor manera a tu gatito.
             </p>
         </article>
-        <img src="src/img/fondo.png" width="50px">
-        <input type="search" id="search" name="search" />
-        <h2>Si tiene alguna duda contactenos!</h2>
-        <form action="/my-handling-form-page" method="post">
+        <img src="src/img/fondo.png" width="300px">
+        <h1 class="cont">Si tiene alguna duda contactenos!</h1>
+        <article class="arti" >
+         <form action="/my-handling-form-page" method="post">
             <ul>
                 <li>
                   <label for="name">Name:</label>
@@ -43,17 +42,18 @@
                   <label for="msg">Message:</label>
                   <textarea id="msg" name="user_message"></textarea>
                 </li>
-                <li>
-                    <textarea id="msg" name="user_message"></textarea>
-                </li>
                 <li class="button">
                     <button type="submit">Send your message</button>
                   </li>
             </ul>
-        </form>
+         </form>
+        </article>
     </section>
-    <input type="datetime-local" name="datetime" id="datetime" />
-    <input type="color" name="color" id="color" />
-    <footer><h5>Desarrolado por Oriana Aldana</h5><a href="https://github.com/OrianaAldana">Mi Pagina Web</a></footer>
+    <div class="card">
+        <img class="image">
+        <p class="texto"></p>
+        <a class="boton"></a>
+    </div>
+    <footer><h5>Desarrollado por Oriana Aldana</h5><a href="https://github.com/OrianaAldana">Mi Pagina Web</a></footer>
 </body>
 </html>
