@@ -49,8 +49,17 @@ to {
     font-size: 30pt;
     animation-name: movimiento;
     animation-duration: 2s;
+    @media(min-width: 768px){
+        width: 20%;
+    }
 }
 .arti{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+.arti__card{
     background-color:var(--background-color);
     width:600px;
     height:300px;
@@ -59,12 +68,18 @@ to {
     margin:25px;
     flex-wrap: wrap;
 }
-.arti__text{
+.arti__form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.arti__card__text{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: justify;
     font-size: 25pt;
 }
-.arti__subtext{
+.arti__card__subtext{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: justify;
     font-size: 17pt;
@@ -112,10 +127,10 @@ ul{
     padding: var(--padding-img);
     border-radius: var(--border-image);
     margin:var(--margin-img);
-    position:absolute;
-    top:418px;
-    right:1100px;
-    flex-wrap: wrap;
+    position: absolute;
+    top: 450px;
+    left:0;
+     
 }
 .card__imagefon{
     width: var(--width-img);
@@ -123,7 +138,7 @@ ul{
     border-radius: var(--border-image);
     margin: var(--margin-img);
     border:var(--border-img);
-    position:absolute;
+
     top:215px;
     right:50px;
 }
@@ -133,9 +148,8 @@ ul{
     border-radius: var(--border-image);
     margin: var(--margin-img);
     border:var(--border-img);
-    position:absolute;
-    top:650px;
-    right:250px;
+    
+   
 }
 .card__imagec{
     width:250px;
@@ -314,5 +328,7 @@ p::first-letter{color:var(--background-titu)}
     font-size: 25pt;
 }
 .section{
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
