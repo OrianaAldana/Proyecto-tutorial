@@ -56,6 +56,15 @@ to {
     flex-wrap: wrap;
    
 }
+.arti__card__a{
+    background-color:var(--background-color);
+    width:600px;
+    height:350px;
+    padding:5px;
+    border: 10px double black;
+    margin:25px;
+    flex-wrap: wrap;
+}
 .arti__card{
     background-color:var(--background-color);
     width:600px;
@@ -101,22 +110,14 @@ ul{
 .a{
     color:black;
 }
-.car{
-    width: 400px;
-    height: 400px;
-    margin:10px;
-    border:1px solid blue;
-    color:aliceblue;
-    list-style: none;
-}
 .card__imagef{
     width:250px;
     padding: var(--padding-img);
     border-radius: var(--border-image);
     margin:var(--margin-img);
     position:absolute;
-    left:500px;
-    top:450px;
+    left:470px;
+    top:500px;
     flex-wrap: wrap;
 }
 .card__imagefo{
@@ -125,8 +126,8 @@ ul{
     border-radius: var(--border-image);
     margin:var(--margin-img);
     position: absolute;
-    top: 450px;
-    left:0;
+    top: 455px;
+    right: 1200px;
      
 }
 .card__imagefon{
@@ -155,7 +156,7 @@ ul{
     margin:var(--margin-img);
     position:absolute;
     left:400px;
-    top:400px;
+    top:420px;
 }
 .card__imageco{
     width:230px;
@@ -163,7 +164,7 @@ ul{
     border-radius: var(--border-image);
     margin:var(--margin-img);
     position:absolute;
-    top:410px;
+    top:440px;
     right:1200px;
 }
 .card__imagecom{
@@ -182,7 +183,7 @@ ul{
     border:var(--border-image);
     position:absolute;
     left:450px;
-    top:760px;
+    top:820px;
 }
 .card__imagecomid{
     width: 450px;
